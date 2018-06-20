@@ -1,0 +1,21 @@
+body {
+	padding-top: 70px;
+}
+
+#f {
+	margin-bottom: 0;
+}
+
+#editor { 
+	height: 400px;
+}
+
+#editor2 { 
+	height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+	.custom-collapse .collapse {
+		display:block;
+  	}  
+}

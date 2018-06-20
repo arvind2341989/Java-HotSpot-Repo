@@ -28,13 +28,13 @@
     	</property>
     	<property name="annotatedClasses">
 			<list>
-				<value>javahotspot.entity.User</value>
+				<value>in.javahotspot.entity.User</value>
 			</list>
     	</property>
     </bean>					   
 						   
 	<context:annotation-config/>
 	
-	<context:component-scan base-package="javahotspot.service"/>
-	<context:component-scan base-package="javahotspot.dao"/>
+	<context:component-scan base-package="in.javahotspot.service"/>
+	<context:component-scan base-package="in.javahotspot.dao"/>
 </beans>
