@@ -55,6 +55,7 @@ public class CodingGroundService {
 		JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
 				
 		DiagnosticCollector< JavaFileObject > diagnostics = new DiagnosticCollector<JavaFileObject>();
+		
 		StandardJavaFileManager manager = compiler.getStandardFileManager(diagnostics, null, null );
 		try {
 			manager.setLocation(StandardLocation.CLASS_OUTPUT,Arrays.asList(new File(javaSourceFile.getParent())));
